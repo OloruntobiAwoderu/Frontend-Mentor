@@ -28,7 +28,7 @@ nav {
   margin: 50px 0;
   width: 100%;
 }
-.firstdiv {
+.firstdiv, .first {
   padding: 0 40px 0 0;
   width: 100%;
   margin: auto;
@@ -94,3 +94,46 @@ nav {
   .author {
     margin: auto 5px;
   }
+  .link {
+      color: hsl(170, 45%, 43%);
+  }
+  .thirddiv {
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+    padding: 30px;
+    
+    
+  }
+
+  .head1 {
+    font-size: 30px;
+    color:  white;
+    font-weight: 700;
+  }
+  .paragraph {
+    color: #fff;
+  }
+
+  .footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white
+ 
+  }
+  footer{
+    background-color: hsl(243, 87%, 12%);
+  }
+
+  .about {
+    display:flex ;
+    flex-direction: column;
+  }
+  .logo {
+    color: #fff;
+    padding: 20px;
+  }
+.a{
+  padding-top: 10px;
+}
